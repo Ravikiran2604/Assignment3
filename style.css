@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+}
+/*Navbar starts*/
+.navbar
+{
+    background-color: blueviolet!important;
+}
+
+.fa-bootstrap
+{
+    font-size: 35px;
+}
+.navicons li {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    color: whitesmoke;
+    margin-right: 20px;
+    font-size: 25px;
+    position: relative;
+    right: 20px;
+}
+.nav-item
+{
+    font-size: 18px;
+}
+.btn{
+    margin-right: 60px;
+}
+.btn a
+{
+    color: yellow;
+    text-decoration: none;
+}
+.btn a:hover
+{
+    color: rgb(235, 135, 69);
+}
+/*Navbar ends*/
+/*Body starts*/
+.bodyimg
+{
+    height: 600px;
+    width: 700px;
+}
+.bdyitem
+{
+    display: inline-block;
+}
+
+.btn-primary{
+    background-color: #7952b3;
+}
+
+.icon i
+{
+    font-size: 40px;
+}
+
+.code
+{
+    background-color: rgb(238, 235, 235);
+    padding: 10px;
+}

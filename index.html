@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!--Fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Link of Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Better NAV-->
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <!-- external link Css-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHOqkOI6Gc5VPZUvAgiPnxh5sznYjY8nQA0Zvjs_QjgEODbrLRMuBxQGwrpLuj4jq-kw0&usqp=CAU">
+</head>
+<body>
+    <!--Navbar starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark better-bootstrap-nav-right pt-3 pb-3">
+        <a class="navbar-brand" href="#"><i class="fab fa-bootstrap"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Examples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Icons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Themes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navicons">
+              <li><i class="fab fa-github" title="GitHub"></i></li>
+              <li><i class="fab fa-twitter" title="Twitter"></i></li>
+              <li><i class="fab fa-slack-hash" title="Slack"></i></li>
+            </ul>
+            <button class="btn btn-nav btn-outline-warning my-2 my-sm-0" type="submit"><a href="">Download</a></button>
+          </form>
+        </div>
+      </nav>
+    <!--Navbar Ends-->
+    <!--Body Starts-->
+    <div class="head mb-3">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col bdyhead "><h1 class="mb-3 mt-lg-5">Build fast, responsive sites with Bootstrap</h1>
+            <p class="para mb-4">
+              Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+          </div>
+          <div class="col h-3">
+            <div>
+              <img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col d-flex ">
+        Currently v5.01 , <a href="">v4.6x docs </a>,<a href="">All Releases</a>
+      </div>
+    </div>
+  </div>
+<!--Installation starts-->
+  <div class="container installation mt-4">
+    
+    <div class="col icon icn1"><i class="fas fa-less-than"></i><i class="fas fa-greater-than"></i></div>
+   <div class="row mt-3">
+    <div class="col">
+      <h4 class="display-5 fw-normal">Installation</h4>
+      <p class="lead fw-normal">
+        Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.
+      </p>
+      <p>Package managed installs don’t include documentation or our full build scripts. You can also <a href="">use our npm template repo</a> to quickly generate a Bootstrap project via npm.</p>
+      <a class="btn btn-lg btn-outline-primary mb-3" href="">Read installation docs</a>
+    </div>
+
+    <div class="col">
+      <p class="code rounded">$ npm install bootstrap</p>
+      <p class="code rounded">$ gem install bootstrap -v 5.0.1</p>
+    </div>
+<!--Installation Ends-->
+<!--JSdeliver-->
+    <div class="container jsdeliver mt-4">
+      <div class="col icon icn2"><i class="fas fa-cloud mt-4"></i></div>
+      <div class="row mt-3">
+       <div class="col">
+         <h4 class="display-5 fw-normal">jsDelivr</h4>
+         <p class="lead fw-normal">
+          When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr.  </p>
+         <p>Package managed installs don’t include documentation or our full build scripts. You can also <a href="">use our npm template repo</a> to quickly generate a Bootstrap project via npm.</p>
+         <a class="btn btn-lg btn-outline-primary mb-3" href="">Explore the docs</a>
+        </div>
+
+       <div class="col mt-5">
+         <p class="code rounded">css
+           "linkhref="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min"</p>
+           <p class="code rounded"><!-- JavaScript Bundle with Popper -->
+            script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min" </p>
+       </div>
+<!--Bootstrap icon-->
+<div class="container booticon mt-2">
+  <div class="row">
+    <div class="col icon icn3"><i class="fas fa-arrows-alt"></i></i></div>
+  </div>
+  <div class="row mt-3">
+      <div class="col">
+        <h4>Bootstrap Icons</h4>
+        <p>
+          For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.
+        </p>
+        <p>
+          Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with CSS.
+        </p>
+        <a class="btn btn-lg btn-outline-primary mb-3" href="">Read installation docs</a>
+      </div>
+      <div class="col">
+          <div>
+              <img src="https://getbootstrap.com/docs/4.5/assets/img/bootstrap-icons.png" alt="">
+          </div>
+      </div>
+  </div>
+</div>
+<!--Official themes-->
+<div class="container">
+  <div class="row mt-4">
+      <div class="col icon mb-2"><i class="fas fa-tint"></i></div>
+  </div>
+  <div class="row mt-3">
+      <div class="col">
+          <h4>Official Themes</h4>
+          <p>Take Bootstrap to the next level with premium themes from the <a href="">official Bootstrap Themes marketplace</a></p>
+          <p>Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins,documentation, and powerful build tools.</p>
+          <a class="btn btn-lg btn-outline-primary mb-3" href="">Browse themes</a>
+      </div>
+      <div class="col">
+          <div>
+              <img src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-themes.png" alt="">
+          </div>
+      </div>
+  </div>
+</div>
+<!--Body Ends-->
+<!--footer starts-->
+<section class=" footer bg-light">
+  <div class="container py-5">
+      <div class=" row mt-5">
+          <div class="col-lg-3 mb-3 text-secondary">
+              <div class="d-flex">
+                <i class="fab fa-bootstrap mr-2 mb-2"></i>
+                  <h4>Bootstrap</h4>
+              </div>
+              <p>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.
+              </p>
+              <p>
+                  Code licensed MIT, docs CC BY 3.0.
+              </p>
+              <p>Currently v5.0.1</p>
+          </div>
+      
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3 ">
+              <h4>Links</h4>
+              <ul class="list-unstyled">
+                  <li class="mb-2">Home</li>
+                  <li class="mb-2">Docs</li>
+                  <li class="mb-2">Examples</li>
+                  <li class="mb-2">Themes</li>
+                  <li class="mb-2">Blog</li>
+              </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3 ">
+              <h4>Guides</h4>
+              <ul class="list-unstyled">
+                  <li class="mb-2">Getting started</li>
+                  <li class="mb-2">Starter template</li>
+                  <li class="mb-2">Webpack</li>
+                  <li class="mb-2">Parcel</li>
+              </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3 ">
+              <h4>Projects</h4>
+              <ul class="list-unstyled">
+                  <li class="mb-2">Bootstrap 5</li>
+                  <li class="mb-2">Bootstrap 4</li>
+                  <li class="mb-2">Icons</li>
+                  <li class="mb-2">RFS</li>
+                  <li class="mb-2">npm starter</li>
+              </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3 ">
+              <h4>Community</h4>
+              <ul class="list-unstyled">
+                  <li class="mb-2">Issues</li>
+                  <li class="mb-2">Discussions</li>
+                  <li class="mb-2">Corporate sponsors</li>
+                  <li class="mb-2">Open Collective</li>
+                  <li class="mb-2">Slack</li>
+                  <li class="mb-2">Stack Overflow</li>
+              </ul>
+          </div>
+      
+      </div>
+      </div>
+      </section>
+<!--footer ends-->
+        <!--Better NAV-->
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    <!--JS bundle of bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
